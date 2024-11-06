@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>England</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title-header">England</h1>
 
-    <header>
-        <h1>England</h1>
+      <div class="carousel">
+        <input type="radio" name="carousel" id="slide1" checked>
+        <input type="radio" name="carousel" id="slide2">
+        <input type="radio" name="carousel" id="slide3">
+        <div class="slides">
+          <div class="slide">
+            <img src="./images/england.jpg" alt="Slide 1">
+          </div>
+          <div class="slide">
+            <img src="./images/england1.jpg" alt="Slide 2">
+          </div>
+          <div class="slide">
+            <img src="./images/england2.jpg" alt="Slide 3">
+          </div>
+        </div>
+        <div class="navigation">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+        </div>
+      </div>
+
+      <!-- <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quis
+        quae veritatis voluptatibus debitis numquam saepe at inventore,
+        voluptates sit voluptate. Exercitationem dolorem voluptatem inventore
+        accusamus nobis ratione. Illo, odit.
+      </p> -->
     </header>
-    
-</body>
+  </body>
 </html>
