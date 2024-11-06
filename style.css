@@ -175,3 +175,16 @@ main .section-1 {
     transform: translateX(4px);
 }
   
+ /* SECTION-3 */
+
+.section-3 {
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.section-3 div {
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
