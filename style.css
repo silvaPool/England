@@ -133,18 +133,19 @@ main .section-1 {
     font-weight: 800;
     letter-spacing: 1px;
     font-family: "Playfair Display SC", serif;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .wrapper-content-section1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .wrapper-content-section1 p {
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.6;
     font-weight: 700;
     width: 500px;
     font-family: "Merriweather", serif;
@@ -154,7 +155,7 @@ main .section-1 {
     --s: 500px; /* the size of the image */
     --b: 8px;   /* the border thickness*/
     --g: 14px;  /* the gap */
-    --c: #4ECDC4;
+    --c: #1E3A8A;
 
     width: var(--s);
     aspect-ratio: 1;
