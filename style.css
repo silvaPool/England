@@ -1,8 +1,12 @@
 :root {
-    --text: #1a1228;
-    --header-bg: #6366f1;
+    --text: #FFFFFF;
+    --font-family: "Playfair Display SC", serif;
+    --font-weight: 800;
+    --letter-spacing: 1px;
+    --text-black: #000000;
+    /* --header-bg: #6366f1;
     --hero-bg: #a1a7f4;
-    --main-bg: #c9d2fa;
+    --main-bg: #c9d2fa; */
 }
 
 body,
@@ -42,9 +46,9 @@ html {
 }
 
 .header .title-header {
-    color: white;
-    font-family: "Playfair Display SC", serif;
-    font-weight: 800;
+    color: var(--text);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
     font-size: 20px;
     letter-spacing: 3px;
     margin-left: 15px;
@@ -62,10 +66,10 @@ html {
 
 .hero h2 {
     font-size: 25px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    font-family: "Playfair Display SC", serif;
-    color: white;
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    font-family: var(--font-family);
+    color: var(--text);
 }
 
 .hero p {
@@ -73,7 +77,7 @@ html {
     line-height: 1.5;
     margin-bottom: 1rem;
     font-family: "Merriweather", serif;
-    color: white;
+    color: var(--text);
 }
 
 
@@ -86,7 +90,7 @@ html {
     letter-spacing: 5px;
     text-transform: uppercase;
     cursor: pointer;
-    color: black;
+    color: var(--text-black);
     transition: all 1000ms;
     font-size: 15px;
     position: relative;
@@ -96,7 +100,7 @@ html {
   }
   
   button:hover {
-    color: #ffffff;
+    color: var(--text);
     transform: scale(1.1);
     outline: 2px solid rgba(0, 0, 0, 0.7);
     box-shadow: 4px 5px 17px -4px #268391;
@@ -126,13 +130,14 @@ html {
 
 main .section-1 {
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .section-1 h2 {
     font-size: 25px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    font-family: "Playfair Display SC", serif;
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    font-family: var(--font-family);
     margin-left: 25px;
 }
 
@@ -152,7 +157,7 @@ main .section-1 {
 }
 
 .wrapper-content-section1 .img-wraper {
-    --s: 500px; /* the size of the image */
+    --s: 450px; /* the size of the image */
     --b: 8px;   /* the border thickness*/
     --g: 14px;  /* the gap */
     --c: #1E3A8A;
@@ -232,7 +237,7 @@ main .section-1 {
 .action {
     display: inline-flex;
     margin-top: 1rem;
-    color: #ffffff;
+    color: var(--text);
     font-size: 0.875rem;
     line-height: 1.25rem;
     font-weight: 500;
