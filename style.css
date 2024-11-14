@@ -191,7 +191,6 @@ main .section-1 {
 }
 
 .section-2 h2 {
-    border: 1px solid red;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -292,9 +291,42 @@ main .section-1 {
     padding: 10px;
 }
 
-.section-3 div {
+.section-3 .wrapper-content-section-3 {
     border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-3 .image-section-3 {
+    background: url("./images/england5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 700px;
+    height: 500px;
+}
+
+/* .card-section-3 {
+    border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
 }
+
+.card-section-3 .img {
+  background: url("./images/england2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  width: 60px;
+  height: 50px;
+}
+
+.card-section-3 .content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+} */
