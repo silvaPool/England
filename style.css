@@ -287,9 +287,13 @@ main .section-1 {
  /* SECTION-3 */
 
 .section-3 {
-    border: 1px solid blue;
     padding: 10px;
     background: #e8e8e8;
+}
+
+.section-3 h2 {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .section-3 .wrapper-content-section-3 {
