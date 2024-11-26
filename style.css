@@ -131,6 +131,7 @@ html {
 main .section-1 {
     padding: 10px;
     margin-bottom: 20px;
+    background: #e8e8e8;
 }
 
 .section-1 h2 {
@@ -188,17 +189,25 @@ main .section-1 {
 .section-2 {
     padding: 10px;
     margin-bottom: 15px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .section-2 h2 {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     text-align: center;
+    font-family: var(--font-family);
 }
 
 .wrapper-cards-section2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 60px;
 }
 
 /* From Uiverse.io by Yaya12085 */ 
@@ -294,6 +303,7 @@ main .section-1 {
 .section-3 h2 {
     text-align: center;
     margin-bottom: 40px;
+    font-family: var(--font-family);
 }
 
 .section-3 .wrapper-content-section-3 {
@@ -432,6 +442,7 @@ main .section-1 {
 .section-4 > h2 {
     text-align: center;
     margin-bottom: 35px;
+    font-family: var(--font-family);
 }
 
 .section-4 .wrapper-cards-section-4 {
