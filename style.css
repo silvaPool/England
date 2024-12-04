@@ -493,6 +493,14 @@ main .section-1 {
     width: 75%;
 }
 
+@media (max-width: 414pxpx) {
+
+    .image-section-3 {
+       display: none;
+   }
+ 
+}
+
 @media (max-width: 390px) {
 
      .image-section-3 {
