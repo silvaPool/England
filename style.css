@@ -97,16 +97,16 @@ html {
     overflow: hidden;
     outline: 2px solid rgba(0, 0, 0, 0.7);
     z-index: 0;
-  }
+}
   
-  button:hover {
+button:hover {
     color: var(--text);
     transform: scale(1.1);
     outline: 2px solid rgba(0, 0, 0, 0.7);
     box-shadow: 4px 5px 17px -4px #268391;
-  }
+}
   
-  button::before {
+button::before {
     content: "";
     position: absolute;
     left: -50px;
@@ -117,12 +117,24 @@ html {
     transform: skewX(45deg);
     z-index: -1;
     transition: width 1000ms;
-  }
+}
   
-  button:hover::before {
+button:hover::before {
     width: 250%;
-  }
+}
+
+@media (max-width: 414px) {
   
+    .hero {
+        text-align: center;
+    }
+
+    .hero p {
+       position: relative;
+       left: 20%;
+    }
+   
+}
 
 /* MAIN */
 
