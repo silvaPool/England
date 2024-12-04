@@ -132,6 +132,7 @@ button:hover::before {
     .hero p {
        position: relative;
        left: 20%;
+       text-align: left;
     }
    
 }
@@ -326,6 +327,23 @@ main .section-1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 414px) {
+
+    .section-2 {
+       background-color: red;
+       height: 180vh;
+    }
+
+    .section-2 h2 {
+        margin-bottom: none;
+    }
+
+    .wrapper-cards-section2 {
+        flex-direction: column;
+    }
+  
 }
  /* SECTION-3 */
 
