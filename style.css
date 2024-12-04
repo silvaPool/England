@@ -219,6 +219,16 @@ main .section-1 {
     }
 }
 
+@media (max-width: 390px) {
+  
+    .wrapper-content-section1 p {
+        text-align: left;
+        width: 350px;
+    }
+   
+}
+
+
 /* SECTION-2 */
 
 .section-2 {
@@ -332,7 +342,6 @@ main .section-1 {
 @media (max-width: 414px) {
 
     .section-2 {
-       background-color: red;
        height: 180vh;
        margin-bottom: 0;
     }
@@ -484,6 +493,17 @@ main .section-1 {
     width: 75%;
 }
 
+@media (max-width: 390px) {
+
+     .image-section-3 {
+        display: none;
+    }
+
+    .notification {
+        width: 20rem;
+    }
+  
+}
 
 /* SECTION - 4 */
 
@@ -583,6 +603,14 @@ main .section-1 {
         gap: 20px;
     }
   
+}
+
+@media (max-width: 390px) {
+
+    .section-4 {
+        height: 120vh;
+    }
+ 
 }
 
 /* FOOTER */
