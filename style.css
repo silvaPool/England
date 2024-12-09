@@ -78,6 +78,7 @@ html {
     margin-bottom: 1rem;
     font-family: "Merriweather", serif;
     color: var(--text);
+    text-align: left ;
 }
 
 
